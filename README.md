@@ -1,6 +1,6 @@
 # snaptime
 
-**This Gem is still under development and is not to be used in production yet.**
+**This Gem is still in an early stage of development. Please not use this in production yet.**
 
 Snaptime lets you versionize Active Record models using single table versioning.
 Records are identified by a `natural_id` and their validity is controlled via

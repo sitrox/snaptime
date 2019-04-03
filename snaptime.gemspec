@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib".freeze]
   s.authors = ["Sitrox".freeze]
   s.date = "2019-04-03"
-  s.files = [".gitignore".freeze, "Gemfile".freeze, "Gemfile.lock".freeze, "LICENSE".freeze, "README.md".freeze, "Rakefile".freeze, "VERSION".freeze, "lib/snaptime/ar_hooks.rb".freeze, "lib/snaptime/base_ar_mixin.rb".freeze, "lib/snaptime/exceptions.rb".freeze, "lib/snaptime/harvester.rb".freeze, "lib/snaptime/migration_helpers.rb".freeze, "lib/snaptime/railtie.rb".freeze, "lib/snaptime/record_cloner.rb".freeze, "lib/snaptime/relations.rb".freeze, "lib/snaptime/relations_builder.rb".freeze, "lib/snaptime/versioned.rb".freeze, "lib/snaptime/versioned/scopes.rb".freeze, "lib/snaptime/virtual_models/snaptime.rb".freeze, "snaptime.gemspec".freeze]
+  s.files = [".gitignore".freeze, ".releaser_config".freeze, "Gemfile".freeze, "Gemfile.lock".freeze, "LICENSE".freeze, "README.md".freeze, "Rakefile".freeze, "VERSION".freeze, "lib/snaptime.rb".freeze, "lib/snaptime/ar_hooks.rb".freeze, "lib/snaptime/base_ar_mixin.rb".freeze, "lib/snaptime/exceptions.rb".freeze, "lib/snaptime/harvester.rb".freeze, "lib/snaptime/migration_helpers.rb".freeze, "lib/snaptime/railtie.rb".freeze, "lib/snaptime/record_cloner.rb".freeze, "lib/snaptime/relations.rb".freeze, "lib/snaptime/relations_builder.rb".freeze, "lib/snaptime/versioned.rb".freeze, "lib/snaptime/versioned/scopes.rb".freeze, "lib/snaptime/virtual_models/snaptime.rb".freeze, "snaptime.gemspec".freeze]
   s.rubygems_version = "2.5.2.3".freeze
   s.summary = "Multi-threaded job backend with database queuing for ruby.".freeze
 

@@ -19,6 +19,7 @@ task :gemspec do
     spec.add_development_dependency 'benchmark-ips'
     spec.add_dependency 'activesupport'
     spec.add_dependency 'activerecord'
+    spec.add_dependency 'request_store'
   end
 
   File.open('snaptime.gemspec', 'w') { |f| f.write(gemspec.to_ruby.strip) }

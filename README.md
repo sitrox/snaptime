@@ -110,3 +110,9 @@ class YourModel < ActiveRecord::Base
   include Snaptime::Versioned
 end
 ```
+
+## Caveats
+
+- Do not use `def self.default_scope` but `default_scope do` in versioned models
+  if you need to extend the default scope.
+- `.unscoped` also removes the default scope added by snaptime.
